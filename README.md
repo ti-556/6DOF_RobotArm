@@ -20,7 +20,7 @@ x\\
 y\\
 z\end{bmatrix}$$
 
-and rot(X,Y,Z) be the rotation matrix.
+and $rot(X,Y,Z)$ be the rotation matrix.
 
 The homogeneous transformation matrix can be expressed in the following structure:
 
