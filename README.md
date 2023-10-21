@@ -11,10 +11,21 @@ Matlab and C++ implementations for robot arm kinematic computations.
 
 ### Forward Kinematics
 
-A homogeneous transformation matrix describes both orientation and position of a frame with the following structure:
+A homogeneous transformation matrix describes both orientation and position of a frame.
+
+let $ \vec{d} $ be the displacement vector:
+
+$$ \vec{d} = \being{bmatrix}
+x\\
+y\\
+z\end{bmatrix}
+
+and rot(X,Y,Z) be the rotation matrix.
+
+The homogeneous transformation matrix can be expressed in the following structure:
 
 $$ H = \begin{bmatrix}
-rot(X,Y,Z) & (x,y,z) \\
+rot(X,Y,Z) & \vec{d} \\
 \vec{0}^T & 1 \end{bmatrix} $$
 
 let $H_{nm}$ be the homogeneous transformation matrix from frame n to m, then the homogeneous transformation from base frame to the end effector is found simply with a chain of matrix multiplication of $H_{n,n+1}$:
