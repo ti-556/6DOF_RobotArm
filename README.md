@@ -15,7 +15,7 @@ A homogeneous transformation matrix describes both orientation and position of a
 
 let $\vec{d}$ be the displacement vector:
 
-$$\vec{d} = \being{bmatrix}
+$$\vec{d} = \begin{bmatrix}
 x\\
 y\\
 z\end{bmatrix}$$
