@@ -11,7 +11,7 @@ Matlab and C++ implementations for robot arm kinematic computations.
 
 ### Forward Kinematics
 
-$$ H_06 = H_01 * H_12 * H_23 * H_34 * H_45 * H_56 $$
+$$ H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56} $$
 
 ### Inverse Kinematics
 
