@@ -1,2 +1,2 @@
 # Robot-Arm-Kinematics-Simulations
-Matlab implementations for robot arm kinematic computations
+Matlab and C++ implementations for robot arm kinematic computations
