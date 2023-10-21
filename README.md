@@ -10,3 +10,7 @@ Matlab and C++ implementations for robot arm kinematic computations.
 ## 6DOF Spherical Wrist Kinematic Analysis
 
 ## Test Arm model v1 (2023.10.21)
+3D CAD Model:
+![3D Model v1](6DOF_Testarm_v1_images/Miniarm_CAD.png)
+Maatlab Simulink:
+![v1 Simulation](6DOF_Testarm_v1_images/Miniarm_simulation)
