@@ -13,20 +13,20 @@ Matlab and C++ implementations for robot arm kinematic computations.
 
 A homogeneous transformation matrix describes both orientation and position of a frame.
 
-let $ \vec{d} $ be the displacement vector:
+let $\vec{d}$ be the displacement vector:
 
-$$ \vec{d} = \being{bmatrix}
+$$\vec{d} = \being{bmatrix}
 x\\
 y\\
-z\end{bmatrix}
+z\end{bmatrix}$$
 
 and rot(X,Y,Z) be the rotation matrix.
 
 The homogeneous transformation matrix can be expressed in the following structure:
 
-$$ H = \begin{bmatrix}
+$$H = \begin{bmatrix}
 rot(X,Y,Z) & \vec{d} \\
-\vec{0}^T & 1 \end{bmatrix} $$
+\vec{0}^T & 1 \end{bmatrix}$$
 
 let $H_{nm}$ be the homogeneous transformation matrix from frame n to m, then the homogeneous transformation from base frame to the end effector is found simply with a chain of matrix multiplication of $H_{n,n+1}$:
 
