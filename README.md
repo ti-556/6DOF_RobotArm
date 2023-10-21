@@ -6,3 +6,7 @@ Matlab and C++ implementations for robot arm kinematic computations.
   - C++ code for utlity functions (matrix operations and euler-rotation conversions)
 - Matlab simulink model for inverse and forward kinematic simulations
 - 3D CAD models of the robot arm for 3D printing
+
+## 6DOF Spherical Wrist Kinematic Analysis
+
+## Test Arm model v1 (2023.10.21)
