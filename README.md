@@ -15,7 +15,7 @@ A homogeneous transformation matrix describes both orientation and position of a
 
 $$ H = \begin{bmatrix}
 rot(X,Y,Z) & (x,y,z) \\
-\vb*{0}^T & 1 \end{bmatrix} $$
+\vec{0}^T & 1 \end{bmatrix} $$
 
 let $H_{nm}$ be the homogeneous transformation matrix from frame n to m, then the homogeneous transformation from base frame to the end effector is found simply with a chain of matrix multiplication of $H_{n,n+1}$:
 
