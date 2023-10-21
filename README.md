@@ -11,6 +11,7 @@ Matlab and C++ implementations for robot arm kinematic computations.
 
 ### Forward Kinematics
 
+let $ H_{nm} $ be the homogeneous transformation matrix from frame n to m, then the homogeneous transformation from base frame to the end effector is found with a chain of matrix multiplication of $H_{n,n+1}$:
 $$ H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56} $$
 
 ### Inverse Kinematics
