@@ -42,3 +42,7 @@ $$H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56}$$
 Matlab Simulink:
 
 ![v1 Simulation](6DOF_Testarm_v1_images/Miniarm_simulation.png)
+
+3D Printed Prototype:
+
+![Printed model](6DOF_Testarm_v1_images/Printedarm_v1.png)
