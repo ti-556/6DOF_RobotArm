@@ -45,4 +45,4 @@ Matlab Simulink:
 
 3D Printed Prototype:
 
-![Printed model](6DOF_Testarm_v1_images/Printedarm_v1.png)
+![Printed model](6DOF_Testarm_v1_images/Printedarm_v1.jpg)
