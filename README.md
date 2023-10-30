@@ -55,23 +55,19 @@ Points of improvement:
 - not enough torque for joint 3
 - some links contact when rotated
 
-Todo list:
-- Get new servos
-- review 3D model
-
 ### 2023.10.29
 
 First update:
 
+- Replaced joints 1 and 2 with new servos (RDS3218)
+- fixed some links
+
 ![First update](6DOF_Testarm_v1_images/Testarm_update1.JPG)
 
-![Testing new servos](6DOF_Testarm_v1_images/Servo_joints23_tes.gif)
+![Testing new servos](https://github.com/ti-556/6DOF_RobotArm/blob/main/6DOF_Testarm_v1_images/Servo_joints23_test.gif)
 
 Points of improvement:
 - servo wiring
+- lack of stability for joints 4, 5, 6 (SG90)
 
-Todo list:
-- finish wiring up all servos
-- finish arduino code for all 6 servos
-- implement IK
 
