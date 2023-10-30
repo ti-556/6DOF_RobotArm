@@ -55,8 +55,23 @@ Points of improvement:
 - not enough torque for joint 3
 - some links contact when rotated
 
+Todo list:
+- Get new servos
+- review 3D model
+
 ### 2023.10.29
 
+First update:
 
+![First update](6DOF_Testarm_v1_images/Testarm_update1.JPG)
 
+![Testing new servos](6DOF_Testarm_v1_images/Servo_joints23_tes.gif)
+
+Points of improvement:
+- servo wiring
+
+Todo list:
+- finish wiring up all servos
+- finish arduino code for all 6 servos
+- implement IK
 
