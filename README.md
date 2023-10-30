@@ -34,7 +34,9 @@ $$H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56}$$
 
 ### Inverse Kinematics
 
-## Test Arm Model v1 (2023.10.21)
+## Robot Arm Progress
+
+### 2023.10.21
 3D CAD Model:
 
 ![3D Model v1](6DOF_Testarm_v1_images/Miniarm_CAD.png)
@@ -43,6 +45,18 @@ Matlab Simulink:
 
 ![v1 Simulation](6DOF_Testarm_v1_images/Miniarm_simulation.png)
 
-3D Printed Prototype:
+### 2023.10.26
+
+First 3D Printed Prototype:
 
 ![Printed model](6DOF_Testarm_v1_images/Printedarm_v1.JPG)
+
+Points of improvement:
+- not enough torque for joint 3
+- some links contact when rotated
+
+### 2023.10.29
+
+
+
+
