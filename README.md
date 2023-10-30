@@ -1,5 +1,5 @@
 # Robot-Arm-Kinematics-Simulations
-Matlab and C++ implementations for robot arm kinematic computations.
+Creating a robot arm from scratch. Matlab and C++ implementations for robot arm kinematic computations.
 
 <b>What the repository contains:</b>
 - C++ code for inverse and forward kinematic calculations
@@ -39,17 +39,17 @@ $$H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56}$$
 ### 2023.10.21
 3D CAD Model:
 
-![3D Model v1](6DOF_Testarm_v1_images/Miniarm_CAD.png)
+<img src="6DOF_Testarm_v1_images/Miniarm_CAD.png" alt="First CAD model" width="700"/>
 
 Matlab Simulink:
 
-![v1 Simulation](6DOF_Testarm_v1_images/Miniarm_simulation.png)
+<img src="6DOF_Testarm_v1_images/Miniarm_simulation.png" alt="test simulation" width="700"/>
 
 ### 2023.10.26
 
 First 3D Printed Prototype:
 
-![Printed model](6DOF_Testarm_v1_images/Printedarm_v1.JPG)
+<img src="6DOF_Testarm_v1_images/Printedarm_v1.JPG" alt="First print" width="500"/>
 
 Points of improvement:
 - not enough torque for joint 3
@@ -62,7 +62,8 @@ First update:
 - Replaced joints 1 and 2 with new servos (RDS3218)
 - fixed some links
 
-![First update](6DOF_Testarm_v1_images/Testarm_update1.JPG)
+
+<img src="6DOF_Testarm_v1_images/Testarm_update1.JPG" alt="First update" width="500"/>
 
 ![Testing new servos](https://github.com/ti-556/6DOF_RobotArm/blob/main/6DOF_Testarm_v1_images/Servo_joints23_test.gif)
 
