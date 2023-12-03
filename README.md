@@ -40,17 +40,17 @@ $$H_{06} = H_{01} * H_{12} * H_{23} * H_{34} * H_{45} * H_{56}$$
 ### 2023.10.21
 3D CAD Model:
 
-<img src="6DOF_Testarm_v1_images/Miniarm_CAD.png" alt="First CAD model" width="700"/>
+<img src="images/Miniarm_CAD.png" alt="First CAD model" width="700"/>
 
 Matlab Simulink:
 
-<img src="6DOF_Testarm_v1_images/Miniarm_simulation.png" alt="test simulation" width="700"/>
+<img src="images/Miniarm_simulation.png" alt="test simulation" width="700"/>
 
 ### 2023.10.26
 
 First 3D Printed Prototype:
 
-<img src="6DOF_Testarm_v1_images/Printedarm_v1.JPG" alt="First print" width="500"/>
+<img src="images/Printedarm_v1.JPG" alt="First print" width="500"/>
 
 Points of improvement:
 - not enough torque for joint 3
@@ -64,9 +64,9 @@ First update:
 - fixed some links
 
 
-<img src="6DOF_Testarm_v1_images/Testarm_update1.JPG" alt="First update" width="500"/>
+<img src="images/Testarm_update1.JPG" alt="First update" width="500"/>
 
-![Testing new servos](https://github.com/ti-556/6DOF_RobotArm/blob/main/6DOF_Testarm_v1_images/Servo_joints23_test.gif)
+![Testing new servos](https://github.com/ti-556/6DOF_RobotArm/blob/main/images/Servo_joints23_test.gif)
 
 Points of improvement:
 - servo wiring
